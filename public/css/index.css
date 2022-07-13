@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: darkslateblue;
+  background-color: #458888;
 }
 .wrapper {
   width: 400px;
@@ -20,7 +20,7 @@ body {
 }
 .wrapper header {
   font-size: 21px;
-  color: darkslateblue;
+  color: #c4d42b;
   font-weight: 800;
   padding: 16px 15px;
   display: flex;
@@ -55,12 +55,12 @@ header i {
   border-radius: 10px;
 }
 .input-part input:is(:focus, :valid) {
-  border: 2px solid darkslateblue;
+  border: 2px solid #c4d42b;
   border-radius: 10px;
 }
 .input-part button {
   color: white;
-  background-color: darkslateblue;
+  background-color: #c4d42b;
   cursor: pointer;
   border-radius: 10px;
 }
@@ -76,20 +76,20 @@ header i {
 }
 .info-txt.error {
   display: block;
-  color: rgb(227, 0, 102);
-  background-color: rgb(248, 163, 201);
+  color: white;
+  background-color: #5b4b3c;
   border: rgb(227, 0, 102);
 }
 .info-txt.pending {
   display: block;
-  color: darkslateblue;
+  color: #5b4b3c;
   background-color: #ccc;
   border: #ccc;
 }
 .input-part .separator {
   height: 1px;
   width: 100%;
-  background-color: darkslateblue;
+  background-color: #5b4b3c;
   margin: 25px 0;
   display: flex;
   align-items: center;
@@ -158,7 +158,7 @@ header i {
   justify-content: center;
 }
 .column i{
-    color: darkslateblue;
+    color:#c4d42b;
     font-size: 40px;
 }
 .column.humidity{
@@ -177,4 +177,5 @@ header i {
 .details p{
     font-size: 14px;
     margin-top: -6px;
+    color:#5b4b3c ;
 }
