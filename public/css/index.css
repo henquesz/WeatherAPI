@@ -77,8 +77,8 @@ header i {
 .info-txt.error {
   display: block;
   color: rgb(227, 0, 102);
-  background-color: #ccc;
-  border: #ccc;
+  background-color: rgb(248, 163, 201);
+  border: rgb(227, 0, 102);
 }
 .info-txt.pending {
   display: block;
